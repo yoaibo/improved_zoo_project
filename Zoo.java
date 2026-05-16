@@ -31,7 +31,7 @@ public class Zoo {
         } catch (Exception e) {
             System.out.println("An error occurred during data entry: " + e.getMessage());
         } finally {
-            scanner.close(); // Clean up resource
+            scanner.close();
         }
     }
 }
